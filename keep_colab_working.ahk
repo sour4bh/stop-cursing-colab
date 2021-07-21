@@ -9,9 +9,6 @@
 
 main_script()
 {
-	;param_window_title := "IFSA-EUSFLAT 2021"
-	;param_window_title := param_window_title . " - Mozilla Firefox"
-	
 	param_window_title := "NeuTrack_CNN.ipynb"
 	param_window_title := param_window_title . " - Colaboratory"
 	param_window_title := param_window_title . " - Mozilla Firefox"
@@ -24,7 +21,7 @@ main_script()
 		winactivate
 		winmaximize
 		
-		initial_message_box_sleep_time := 3
+		initial_message_box_sleep_time := 4
 		MsgBoxTimed("Runtime ahk routine activated", "Everything is ok, closing windows in:", initial_message_box_sleep_time)
 		sleep_for(0,0,initial_message_box_sleep_time+1)
 		
