@@ -1,6 +1,6 @@
 #### stop-cursing-colab
 
-# A simple AHK script to keep Google Colab runtimes alive:
+# A simple AHK script to keep Google Colab alive:
 
 This script uses AutoHotKey, an automation scripting language and tool, to emulate human interface device interactions on Google Colab notebook to avoid runtime inactivity timeouts.
 
